@@ -1,7 +1,7 @@
 import fs from 'fs/promises';
 import path from 'path';
-import { initMongoConnection } from './db/initMongoConnection.js';
-import { Contact } from './db/models/Contact.js';
+import { initMongoConnection } from '../db/initMongoConnection.js';
+import { Contact } from '../db/models/Contact.js';
 
 const importContacts = async () => {
   try {
